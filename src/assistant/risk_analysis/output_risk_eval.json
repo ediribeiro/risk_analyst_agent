@@ -1,0 +1,704 @@
+[
+	{
+		"Id": "R001",
+		"Risco": "Não autorização da Contratante para adoção de tecnologia ou arquitetura diversa, impactando a capacidade da Contratada de entregar a melhor solução.",
+		"Relacionado ao": "Solução Tecnológica",
+		"Probabilidade": 3,
+		"Impacto Financeiro": 2,
+		"Impacto no Cronograma": 2,
+		"Impacto Reputacional": 1
+	},
+	{
+		"Id": "R002",
+		"Risco": "Atraso na elaboração do planejamento detalhado da instalação e atualização da solução pela Contratada, comprometendo o cronograma de implantação.",
+		"Relacionado ao": "Gestão Contratual",
+		"Probabilidade": 4,
+		"Impacto Financeiro": 2,
+		"Impacto no Cronograma": 4,
+		"Impacto Reputacional": 1
+	},
+	{
+		"Id": "R003",
+		"Risco": "Falha no aprovisionamento simultâneo da solução nos ambientes de desenvolvimento e produção, impactando a capacidade de testes e desenvolvimento.",
+		"Relacionado ao": "Solução Tecnológica",
+		"Probabilidade": 3,
+		"Impacto Financeiro": 2,
+		"Impacto no Cronograma": 3,
+		"Impacto Reputacional": 1
+	},
+	{
+		"Id": "R004",
+		"Risco": "Capacidade de processamento e armazenagem da solução insuficiente para suportar os requisitos de negócio definidos no ANEXO B, resultando em desempenho inadequado.",
+		"Relacionado ao": "Solução Tecnológica",
+		"Probabilidade": 4,
+		"Impacto Financeiro": 3,
+		"Impacto no Cronograma": 3,
+		"Impacto Reputacional": 2
+	},
+	{
+		"Id": "R005",
+		"Risco": "Falta de técnicos certificados na solução para acompanhar o processo de aprovisionamento e configuração, comprometendo a qualidade da implementação.",
+		"Relacionado ao": "Gestão Contratual",
+		"Probabilidade": 3,
+		"Impacto Financeiro": 2,
+		"Impacto no Cronograma": 3,
+		"Impacto Reputacional": 1
+	},
+	{
+		"Id": "R006",
+		"Risco": "Não cumprimento do prazo mínimo de garantia contratual de 3 meses, impactando a cobertura de suporte e manutenção da solução.",
+		"Relacionado ao": "Gestão Contratual",
+		"Probabilidade": 3,
+		"Impacto Financeiro": 3,
+		"Impacto no Cronograma": 2,
+		"Impacto Reputacional": 1
+	},
+	{
+		"Id": "R007",
+		"Risco": "Alocação de profissionais não devidamente capacitados para a prestação dos serviços, resultando em baixa qualidade e atrasos.",
+		"Relacionado ao": "Gestão Contratual",
+		"Probabilidade": 4,
+		"Impacto Financeiro": 3,
+		"Impacto no Cronograma": 4,
+		"Impacto Reputacional": 2
+	},
+	{
+		"Id": "R008",
+		"Risco": "Dificuldade na substituição de consultores alocados no projeto dentro do prazo de 30 dias, impactando a continuidade dos serviços.",
+		"Relacionado ao": "Gestão Contratual",
+		"Probabilidade": 3,
+		"Impacto Financeiro": 2,
+		"Impacto no Cronograma": 3,
+		"Impacto Reputacional": 1
+	},
+	{
+		"Id": "R009",
+		"Risco": "Interrupção na prestação dos serviços devido à falta de recursos ferramentais necessários para a execução das atividades.",
+		"Relacionado ao": "Gestão Contratual",
+		"Probabilidade": 2,
+		"Impacto Financeiro": 2,
+		"Impacto no Cronograma": 4,
+		"Impacto Reputacional": 1
+	},
+	{
+		"Id": "R010",
+		"Risco": "Não cumprimento das diretrizes da Política de Segurança da Informação e Comunicações do INEP pela prestadora, resultando em vulnerabilidades e incidentes de segurança.",
+		"Relacionado ao": "Gestão Contratual",
+		"Probabilidade": 4,
+		"Impacto Financeiro": 4,
+		"Impacto no Cronograma": 2,
+		"Impacto Reputacional": 4
+	},
+	{
+		"Id": "R011",
+		"Risco": "Divulgação ou acesso indevido a senhas e dados sensíveis devido à falta de proteção adequada na solução entregue.",
+		"Relacionado ao": "Solução Tecnológica",
+		"Probabilidade": 3,
+		"Impacto Financeiro": 4,
+		"Impacto no Cronograma": 1,
+		"Impacto Reputacional": 5
+	},
+	{
+		"Id": "R012",
+		"Risco": "Utilização de ferramentas de apoio pela Contratada que não garantem a segurança da informação, expondo dados a riscos.",
+		"Relacionado ao": "Solução Tecnológica",
+		"Probabilidade": 3,
+		"Impacto Financeiro": 4,
+		"Impacto no Cronograma": 1,
+		"Impacto Reputacional": 4
+	},
+	{
+		"Id": "R013",
+		"Risco": "Não conformidade da solução com a LGPD (Lei Geral de Proteção de Dados), resultando em sanções legais e danos à imagem do INEP.",
+		"Relacionado ao": "Solução Tecnológica",
+		"Probabilidade": 4,
+		"Impacto Financeiro": 5,
+		"Impacto no Cronograma": 1,
+		"Impacto Reputacional": 5
+	},
+	{
+		"Id": "R014",
+		"Risco": "Hospedagem da plataforma em ambiente que não atende aos requisitos da Norma ABNT NBR ISO/IEC 27001:2013, comprometendo a segurança da informação.",
+		"Relacionado ao": "Solução Tecnológica",
+		"Probabilidade": 3,
+		"Impacto Financeiro": 4,
+		"Impacto no Cronograma": 1,
+		"Impacto Reputacional": 4
+	},
+	{
+		"Id": "R015",
+		"Risco": "Não atendimento aos requisitos das Normas ABNT NBR ISO/IEC 27017:2015 e ABNT NBR ISO/IEC 27018:2014, impactando a segurança e privacidade dos dados em nuvem.",
+		"Relacionado ao": "Solução Tecnológica",
+		"Probabilidade": 3,
+		"Impacto Financeiro": 4,
+		"Impacto no Cronograma": 1,
+		"Impacto Reputacional": 4
+	},
+	{
+		"Id": "R016",
+		"Risco": "Dificuldade de compreensão e utilização da solução devido à falta de informações, manuais e documentos técnicos em português do Brasil.",
+		"Relacionado ao": "Solução Tecnológica",
+		"Probabilidade": 2,
+		"Impacto Financeiro": 1,
+		"Impacto no Cronograma": 2,
+		"Impacto Reputacional": 1
+	},
+	{
+		"Id": "R017",
+		"Risco": "Comportamento inadequado dos colaboradores da Contratada no ambiente da Contratante, afetando o clima organizacional e a imagem do INEP.",
+		"Relacionado ao": "Gestão Contratual",
+		"Probabilidade": 2,
+		"Impacto Financeiro": 1,
+		"Impacto no Cronograma": 1,
+		"Impacto Reputacional": 3
+	},
+	{
+		"Id": "R018",
+		"Risco": "Não aderência dos serviços às diretrizes de arquitetura tecnológica estabelecidas pela área técnica da Contratante, resultando em incompatibilidades e problemas de integração.",
+		"Relacionado ao": "Solução Tecnológica",
+		"Probabilidade": 3,
+		"Impacto Financeiro": 2,
+		"Impacto no Cronograma": 3,
+		"Impacto Reputacional": 1
+	},
+	{
+		"Id": "R019",
+		"Risco": "Seleção de fornecedor que não possua expertise comprovada nas normas ABNT NBR ISO/IEC 27001:2013, ABNT NBR ISO/IEC 27017:2015 e ABNT NBR ISO/IEC 27018:2014, resultando em não conformidade da solução.",
+		"Relacionado ao": "Seleção do Fornecedor",
+		"Probabilidade": 4,
+		"Impacto Financeiro": 3,
+		"Impacto no Cronograma": 2,
+		"Impacto Reputacional": 3
+	},
+	{
+		"Id": "R020",
+		"Risco": "Não cumprimento dos acordos de confidencialidade por parte dos empregados da CONTRATADA, resultando em vazamento de informações sigilosas da CONTRATANTE.",
+		"Relacionado ao": "Gestão Contratual",
+		"Probabilidade": 3,
+		"Impacto Financeiro": 4,
+		"Impacto no Cronograma": 1,
+		"Impacto Reputacional": 5
+	},
+	{
+		"Id": "R021",
+		"Risco": "A CONTRATADA não identifica adequadamente as pessoas que terão acesso às informações sigilosas, dificultando o controle e a responsabilização em caso de vazamento.",
+		"Relacionado ao": "Gestão Contratual",
+		"Probabilidade": 3,
+		"Impacto Financeiro": 3,
+		"Impacto no Cronograma": 1,
+		"Impacto Reputacional": 4
+	},
+	{
+		"Id": "R022",
+		"Risco": "A CONTRATADA não possui mecanismos eficazes para impedir a divulgação ou utilização indevida das informações por seus agentes, representantes ou terceiros.",
+		"Relacionado ao": "Gestão Contratual",
+		"Probabilidade": 3,
+		"Impacto Financeiro": 3,
+		"Impacto no Cronograma": 1,
+		"Impacto Reputacional": 4
+	},
+	{
+		"Id": "R023",
+		"Risco": "A CONTRATADA não comunica imediatamente à CONTRATANTE a necessidade de revelar informações sigilosas por determinação judicial, impossibilitando a adoção de medidas preventivas.",
+		"Relacionado ao": "Gestão Contratual",
+		"Probabilidade": 2,
+		"Impacto Financeiro": 3,
+		"Impacto no Cronograma": 1,
+		"Impacto Reputacional": 4
+	},
+	{
+		"Id": "R024",
+		"Risco": "Interpretação ambígua do prazo de vigência do termo de confidencialidade, levando a disputas sobre a proteção das informações após o término do contrato principal.",
+		"Relacionado ao": "Gestão Contratual",
+		"Probabilidade": 1,
+		"Impacto Financeiro": 3,
+		"Impacto no Cronograma": 1,
+		"Impacto Reputacional": 3
+	},
+	{
+		"Id": "R025",
+		"Risco": "As penalidades previstas no contrato principal para quebra de sigilo são insuficientes para dissuadir a CONTRATADA de vazar informações confidenciais.",
+		"Relacionado ao": "Planejamento da Contratação",
+		"Probabilidade": 2,
+		"Impacto Financeiro": 4,
+		"Impacto no Cronograma": 1,
+		"Impacto Reputacional": 3
+	},
+	{
+		"Id": "R026",
+		"Risco": "A CONTRATANTE não possui um plano de resposta a incidentes de vazamento de informações sigilosas, resultando em danos maiores à sua reputação e operações.",
+		"Relacionado ao": "Planejamento da Contratação",
+		"Probabilidade": 1,
+		"Impacto Financeiro": 4,
+		"Impacto no Cronograma": 1,
+		"Impacto Reputacional": 5
+	},
+	{
+		"Id": "R027",
+		"Risco": "Definição inadequada das responsabilidades do fornecedor e do gestor do contrato, levando a conflitos e lacunas na execução dos serviços.",
+		"Relacionado ao": "Gestão Contratual",
+		"Probabilidade": 2,
+		"Impacto Financeiro": 2,
+		"Impacto no Cronograma": 2,
+		"Impacto Reputacional": 2
+	},
+	{
+		"Id": "R028",
+		"Risco": "Falta de clareza nos artefatos/produtos a serem entregues, resultando em entregas que não atendem às necessidades da organização.",
+		"Relacionado ao": "Planejamento da Contratação",
+		"Probabilidade": 3,
+		"Impacto Financeiro": 2,
+		"Impacto no Cronograma": 3,
+		"Impacto Reputacional": 2
+	},
+	{
+		"Id": "R029",
+		"Risco": "Divergências entre o responsável pela demanda/fiscal requisitante e o gestor do contrato, impactando a aprovação de entregas e o fluxo de trabalho.",
+		"Relacionado ao": "Gestão Contratual",
+		"Probabilidade": 1,
+		"Impacto Financeiro": 1,
+		"Impacto no Cronograma": 2,
+		"Impacto Reputacional": 2
+	},
+	{
+		"Id": "R030",
+		"Risco": "Especificação insuficiente dos quantitativos dos serviços/bens a serem contratados, gerando dificuldades na avaliação das propostas e no controle da execução contratual.",
+		"Relacionado ao": "Planejamento da Contratação",
+		"Probabilidade": 2,
+		"Impacto Financeiro": 2,
+		"Impacto no Cronograma": 2,
+		"Impacto Reputacional": 1
+	},
+	{
+		"Id": "R031",
+		"Risco": "Deficiência na ferramenta de gestão de demandas adotada pelo contratante, levando a atrasos na resolução de problemas e impactando a qualidade dos serviços prestados.",
+		"Relacionado ao": "Gestão Contratual",
+		"Probabilidade": 2,
+		"Impacto Financeiro": 2,
+		"Impacto no Cronograma": 3,
+		"Impacto Reputacional": 2
+	},
+	{
+		"Id": "R032",
+		"Risco": "Interpretações divergentes sobre os critérios de medição e pagamento dos serviços, gerando conflitos entre o contratante e o contratado e atrasos nos pagamentos.",
+		"Relacionado ao": "Gestão Contratual",
+		"Probabilidade": 1,
+		"Impacto Financeiro": 3,
+		"Impacto no Cronograma": 2,
+		"Impacto Reputacional": 2
+	},
+	{
+		"Id": "R033",
+		"Risco": "Descumprimento do Termo de Compromisso e Manutenção de Sigilo por parte dos empregados do Contratado, resultando em vazamento de dados sensíveis e prejuízos à imagem do Contratante.",
+		"Relacionado ao": "Gestão Contratual",
+		"Probabilidade": 3,
+		"Impacto Financeiro": 4,
+		"Impacto no Cronograma": 1,
+		"Impacto Reputacional": 5
+	},
+	{
+		"Id": "R034",
+		"Risco": "Não designação do preposto da empresa contratada antes do início da prestação dos serviços, prejudicando a comunicação e a tomada de decisões durante a execução do contrato.",
+		"Relacionado ao": "Gestão Contratual",
+		"Probabilidade": 4,
+		"Impacto Financeiro": 1,
+		"Impacto no Cronograma": 2,
+		"Impacto Reputacional": 1
+	},
+	{
+		"Id": "R035",
+		"Risco": "Recusa injustificada do preposto indicado pela empresa contratada, atrasando o início da execução dos serviços e gerando custos adicionais.",
+		"Relacionado ao": "Gestão Contratual",
+		"Probabilidade": 3,
+		"Impacto Financeiro": 2,
+		"Impacto no Cronograma": 3,
+		"Impacto Reputacional": 1
+	},
+	{
+		"Id": "R036",
+		"Risco": "Não realização da Reunião Inicial de alinhamento em tempo hábil, resultando em falta de clareza sobre as condições do contrato e dificuldades na execução dos serviços.",
+		"Relacionado ao": "Gestão Contratual",
+		"Probabilidade": 4,
+		"Impacto Financeiro": 1,
+		"Impacto no Cronograma": 2,
+		"Impacto Reputacional": 1
+	},
+	{
+		"Id": "R037",
+		"Risco": "Ausência do representante legal da contratada na Reunião Inicial, impossibilitando a apresentação do preposto e a entrega dos Termos de Compromisso e de Ciência.",
+		"Relacionado ao": "Gestão Contratual",
+		"Probabilidade": 3,
+		"Impacto Financeiro": 1,
+		"Impacto no Cronograma": 1,
+		"Impacto Reputacional": 2
+	},
+	{
+		"Id": "R038",
+		"Risco": "Falta de clareza nos esclarecimentos relativos a questões operacionais, administrativas e de gestão do contrato durante a Reunião Inicial, gerando dúvidas e incertezas na execução dos serviços.",
+		"Relacionado ao": "Gestão Contratual",
+		"Probabilidade": 2,
+		"Impacto Financeiro": 1,
+		"Impacto no Cronograma": 2,
+		"Impacto Reputacional": 2
+	},
+	{
+		"Id": "R039",
+		"Risco": "Atraso no início da execução do objeto devido à necessidade de prorrogação do prazo inicial de 15 dias, impactando o cronograma geral do projeto.",
+		"Relacionado ao": "Gestão Contratual",
+		"Probabilidade": 4,
+		"Impacto Financeiro": 2,
+		"Impacto no Cronograma": 4,
+		"Impacto Reputacional": 1
+	},
+	{
+		"Id": "R040",
+		"Risco": "Divergências na interpretação das especificações e padrões técnicos de desempenho e qualidade estabelecidos pelo INEP, levando a produtos e serviços não conformes.",
+		"Relacionado ao": "Solução Tecnológica",
+		"Probabilidade": 2,
+		"Impacto Financeiro": 2,
+		"Impacto no Cronograma": 3,
+		"Impacto Reputacional": 2
+	},
+	{
+		"Id": "R041",
+		"Risco": "Não cumprimento dos prazos estabelecidos nas Ordens de Serviço devido a falhas na gestão e controle por parte do Gestor do Contrato.",
+		"Relacionado ao": "Gestão Contratual",
+		"Probabilidade": 4,
+		"Impacto Financeiro": 2,
+		"Impacto no Cronograma": 4,
+		"Impacto Reputacional": 1
+	},
+	{
+		"Id": "R042",
+		"Risco": "Demora na emissão do Termo de Recebimento Definitivo, atrasando a autorização para emissão da Nota Fiscal e impactando o fluxo de caixa do fornecedor.",
+		"Relacionado ao": "Gestão Contratual",
+		"Probabilidade": 3,
+		"Impacto Financeiro": 3,
+		"Impacto no Cronograma": 2,
+		"Impacto Reputacional": 1
+	},
+	{
+		"Id": "R043",
+		"Risco": "Interrupção ou indisponibilidade da ferramenta utilizada para emissão e controle das Ordens de Serviço, prejudicando a execução e o acompanhamento do contrato.",
+		"Relacionado ao": "Gestão Contratual",
+		"Probabilidade": 2,
+		"Impacto Financeiro": 2,
+		"Impacto no Cronograma": 3,
+		"Impacto Reputacional": 1
+	},
+	{
+		"Id": "R044",
+		"Risco": "Disputas sobre a propriedade intelectual e direitos autorais da solução de TIC, gerando entraves legais e dificuldades na utilização dos artefatos e produtos pela Administração.",
+		"Relacionado ao": "Gestão Contratual",
+		"Probabilidade": 2,
+		"Impacto Financeiro": 4,
+		"Impacto no Cronograma": 1,
+		"Impacto Reputacional": 3
+	},
+	{
+		"Id": "R045",
+		"Risco": "O fornecedor não arcar com os custos decorrentes de erros no dimensionamento dos quantitativos da proposta, gerando custos adicionais para a Contratante.",
+		"Relacionado ao": "Gestão Contratual",
+		"Probabilidade": 3,
+		"Impacto Financeiro": 4,
+		"Impacto no Cronograma": 1,
+		"Impacto Reputacional": 2
+	},
+	{
+		"Id": "R046",
+		"Risco": "Deficiência na ferramenta de gestão de demandas, levando a atrasos no atendimento e dificuldades no acompanhamento das solicitações.",
+		"Relacionado ao": "Solução Tecnológica",
+		"Probabilidade": 2,
+		"Impacto Financeiro": 2,
+		"Impacto no Cronograma": 3,
+		"Impacto Reputacional": 1
+	},
+	{
+		"Id": "R047",
+		"Risco": "Não cumprimento dos prazos estabelecidos para a emissão dos Termos de Recebimento Provisório e Definitivo, impactando o cronograma de pagamento e a avaliação da qualidade dos serviços.",
+		"Relacionado ao": "Gestão Contratual",
+		"Probabilidade": 4,
+		"Impacto Financeiro": 3,
+		"Impacto no Cronograma": 4,
+		"Impacto Reputacional": 1
+	},
+	{
+		"Id": "R048",
+		"Risco": "Apresentação de um Plano de Fiscalização inadequado ou incompleto, dificultando o acompanhamento e a avaliação da execução contratual.",
+		"Relacionado ao": "Gestão Contratual",
+		"Probabilidade": 3,
+		"Impacto Financeiro": 1,
+		"Impacto no Cronograma": 2,
+		"Impacto Reputacional": 2
+	},
+	{
+		"Id": "R049",
+		"Risco": "Divergências nos critérios de medição e pagamento dos serviços, gerando conflitos entre o contratante e o contratado e impactando o fluxo financeiro do contrato.",
+		"Relacionado ao": "Gestão Contratual",
+		"Probabilidade": 1,
+		"Impacto Financeiro": 3,
+		"Impacto no Cronograma": 2,
+		"Impacto Reputacional": 1
+	},
+	{
+		"Id": "R050",
+		"Risco": "Quebra de sigilo de dados e informações confidenciais por parte do contratado, resultando em prejuízos para o contratante e em sanções legais.",
+		"Relacionado ao": "Gestão Contratual",
+		"Probabilidade": 3,
+		"Impacto Financeiro": 4,
+		"Impacto no Cronograma": 1,
+		"Impacto Reputacional": 5
+	},
+	{
+		"Id": "R051",
+		"Risco": "Não designação do preposto da empresa antes do início da prestação dos serviços, prejudicando a comunicação e a coordenação das atividades.",
+		"Relacionado ao": "Gestão Contratual",
+		"Probabilidade": 4,
+		"Impacto Financeiro": 1,
+		"Impacto no Cronograma": 2,
+		"Impacto Reputacional": 1
+	},
+	{
+		"Id": "R052",
+		"Risco": "Recusa injustificada do preposto indicado pela contratada, atrasando o início da execução contratual e gerando custos adicionais.",
+		"Relacionado ao": "Gestão Contratual",
+		"Probabilidade": 3,
+		"Impacto Financeiro": 2,
+		"Impacto no Cronograma": 3,
+		"Impacto Reputacional": 1
+	},
+	{
+		"Id": "R053",
+		"Risco": "Não realização da Reunião Inicial de alinhamento dentro do prazo estabelecido, resultando em divergências de entendimento e dificuldades na execução do contrato.",
+		"Relacionado ao": "Gestão Contratual",
+		"Probabilidade": 4,
+		"Impacto Financeiro": 1,
+		"Impacto no Cronograma": 2,
+		"Impacto Reputacional": 1
+	},
+	{
+		"Id": "R054",
+		"Risco": "Não apresentação do Termo de Compromisso e dos Termos de Ciência por parte da Contratada, indicando falta de comprometimento com as normas de segurança e sigilo.",
+		"Relacionado ao": "Gestão Contratual",
+		"Probabilidade": 4,
+		"Impacto Financeiro": 1,
+		"Impacto no Cronograma": 1,
+		"Impacto Reputacional": 3
+	},
+	{
+		"Id": "R055",
+		"Risco": "Falta de clareza nos esclarecimentos relativos a questões operacionais, administrativas e de gestão do contrato durante a Reunião Inicial, levando a dúvidas e incertezas na execução.",
+		"Relacionado ao": "Gestão Contratual",
+		"Probabilidade": 2,
+		"Impacto Financeiro": 1,
+		"Impacto no Cronograma": 2,
+		"Impacto Reputacional": 2
+	},
+	{
+		"Id": "R056",
+		"Risco": "Discrepância significativa entre a planilha de custos apresentada pelos licitantes e a estimativa do órgão contratante, levando a dificuldades na análise e comparação das propostas.",
+		"Relacionado ao": "Seleção do Fornecedor",
+		"Probabilidade": 3,
+		"Impacto Financeiro": 4,
+		"Impacto no Cronograma": 2,
+		"Impacto Reputacional": 1
+	},
+	{
+		"Id": "R057",
+		"Risco": "Interpretações divergentes sobre os critérios de avaliação da Planilha de Custos e Formação de Preços, resultando em contestações e atrasos na homologação do resultado.",
+		"Relacionado ao": "Seleção do Fornecedor",
+		"Probabilidade": 2,
+		"Impacto Financeiro": 2,
+		"Impacto no Cronograma": 3,
+		"Impacto Reputacional": 2
+	},
+	{
+		"Id": "R058",
+		"Risco": "Não cumprimento dos níveis mínimos de serviço (SLA) estabelecidos no Termo de Referência, impactando a qualidade e disponibilidade da solução contratada.",
+		"Relacionado ao": "Gestão Contratual",
+		"Probabilidade": 4,
+		"Impacto Financeiro": 3,
+		"Impacto no Cronograma": 4,
+		"Impacto Reputacional": 3
+	},
+	{
+		"Id": "R059",
+		"Risco": "Dificuldade na fiscalização da correta aplicação da Planilha de Custos e Formação de Preços durante a execução contratual, podendo gerar pagamentos indevidos.",
+		"Relacionado ao": "Gestão Contratual",
+		"Probabilidade": 2,
+		"Impacto Financeiro": 3,
+		"Impacto no Cronograma": 1,
+		"Impacto Reputacional": 1
+	},
+	{
+		"Id": "R060",
+		"Risco": "Adoção de modelo de Planilha de Custos e Formação de Preços inadequado para a especificidade do serviço de computação em nuvem, dificultando a análise da proposta.",
+		"Relacionado ao": "Planejamento da Contratação",
+		"Probabilidade": 3,
+		"Impacto Financeiro": 3,
+		"Impacto no Cronograma": 1,
+		"Impacto Reputacional": 1
+	},
+	{
+		"Id": "R061",
+		"Risco": "Falta de detalhamento nos requisitos técnicos e funcionais do software ou serviço de nuvem, impossibilitando a correta elaboração da Planilha de Custos e Formação de Preços pelos licitantes.",
+		"Relacionado ao": "Planejamento da Contratação",
+		"Probabilidade": 4,
+		"Impacto Financeiro": 3,
+		"Impacto no Cronograma": 2,
+		"Impacto Reputacional": 1
+	},
+	{
+		"Id": "R062",
+		"Risco": "Incompatibilidade da solução de software ou serviço de nuvem contratado com a infraestrutura existente, gerando custos adicionais de adaptação e integração.",
+		"Relacionado ao": "Solução Tecnológica",
+		"Probabilidade": 3,
+		"Impacto Financeiro": 4,
+		"Impacto no Cronograma": 3,
+		"Impacto Reputacional": 1
+	},
+	{
+		"Id": "R063",
+		"Risco": "Dependência excessiva de um único fornecedor para a solução de software ou serviço de nuvem, limitando a capacidade de negociação e aumentando o risco de lock-in tecnológico.",
+		"Relacionado ao": "Seleção do Fornecedor",
+		"Probabilidade": 4,
+		"Impacto Financeiro": 3,
+		"Impacto no Cronograma": 1,
+		"Impacto Reputacional": 2
+	},
+	{
+		"Id": "R064",
+		"Risco": "Seleção de fornecedor com menor preço que não possui capacidade técnica comprovada para entregar a solução SaaS de gerenciamento de serviços corporativos.",
+		"Relacionado ao": "Seleção do Fornecedor",
+		"Probabilidade": 3,
+		"Impacto Financeiro": 4,
+		"Impacto no Cronograma": 4,
+		"Impacto Reputacional": 3
+	},
+	{
+		"Id": "R065",
+		"Risco": "Atestados de capacidade técnica apresentados não refletirem a real experiência do fornecedor com plataformas SaaS de complexidade similar à requerida.",
+		"Relacionado ao": "Seleção do Fornecedor",
+		"Probabilidade": 3,
+		"Impacto Financeiro": 3,
+		"Impacto no Cronograma": 3,
+		"Impacto Reputacional": 2
+	},
+	{
+		"Id": "R066",
+		"Risco": "Proposta de preços excessivamente baixa que comprometa a qualidade da solução e o suporte técnico oferecido.",
+		"Relacionado ao": "Seleção do Fornecedor",
+		"Probabilidade": 4,
+		"Impacto Financeiro": 4,
+		"Impacto no Cronograma": 3,
+		"Impacto Reputacional": 3
+	},
+	{
+		"Id": "R067",
+		"Risco": "Dificuldade em definir e monitorar os preços unitários dos serviços, levando a custos inesperados e falta de controle orçamentário.",
+		"Relacionado ao": "Gestão Contratual",
+		"Probabilidade": 3,
+		"Impacto Financeiro": 4,
+		"Impacto no Cronograma": 1,
+		"Impacto Reputacional": 1
+	},
+	{
+		"Id": "R068",
+		"Risco": "Variação significativa no volume de uso da plataforma SaaS, impactando o orçamento previsto devido ao regime de empreitada por preço unitário.",
+		"Relacionado ao": "Gestão Contratual",
+		"Probabilidade": 4,
+		"Impacto Financeiro": 4,
+		"Impacto no Cronograma": 1,
+		"Impacto Reputacional": 1
+	},
+	{
+		"Id": "R069",
+		"Risco": "Dependência excessiva do fornecedor da plataforma SaaS, dificultando a migração para outra solução em caso de insatisfação ou necessidade de mudança.",
+		"Relacionado ao": "Solução Tecnológica",
+		"Probabilidade": 4,
+		"Impacto Financeiro": 3,
+		"Impacto no Cronograma": 3,
+		"Impacto Reputacional": 2
+	},
+	{
+		"Id": "R070",
+		"Risco": "Problemas de integração da plataforma SaaS com os sistemas existentes da organização, comprometendo a eficiência e a usabilidade da solução.",
+		"Relacionado ao": "Solução Tecnológica",
+		"Probabilidade": 3,
+		"Impacto Financeiro": 4,
+		"Impacto no Cronograma": 4,
+		"Impacto Reputacional": 2
+	},
+	{
+		"Id": "R071",
+		"Risco": "Falhas na segurança da plataforma SaaS, expondo dados sensíveis da organização a riscos de ataques cibernéticos e violações de privacidade.",
+		"Relacionado ao": "Solução Tecnológica",
+		"Probabilidade": 4,
+		"Impacto Financeiro": 5,
+		"Impacto no Cronograma": 1,
+		"Impacto Reputacional": 5
+	},
+	{
+		"Id": "R072",
+		"Risco": "Cessão de crédito por parte do contratado (cedente) para cessionário com irregularidades fiscais ou trabalhistas, impactando a continuidade do contrato.",
+		"Relacionado ao": "Gestão Contratual",
+		"Probabilidade": 2,
+		"Impacto Financeiro": 4,
+		"Impacto no Cronograma": 3,
+		"Impacto Reputacional": 3
+	},
+	{
+		"Id": "R073",
+		"Risco": "Critérios de seleção do fornecedor mal definidos ou subjetivos podem levar à escolha de um fornecedor inadequado.",
+		"Relacionado ao": "Seleção do Fornecedor",
+		"Probabilidade": 3,
+		"Impacto Financeiro": 3,
+		"Impacto no Cronograma": 2,
+		"Impacto Reputacional": 2
+	},
+	{
+		"Id": "R074",
+		"Risco": "Falta de clareza nos critérios de aceitação dos serviços pode gerar conflitos na liquidação dos pagamentos.",
+		"Relacionado": "Gestão Contratual",
+		"Probabilidade": 3,
+		"Impacto Financeiro": 2,
+		"Impacto no Cronograma": 2,
+		"Impacto Reputacional": 1
+	},
+	{
+		"Id": "R075",
+		"Risco": "A ausência de detalhamento sobre as inconformidades técnicas ou de negócio que podem gerar glosas e sanções dificulta a aplicação de penalidades.",
+		"Relacionado ao": "Gestão Contratual",
+		"Probabilidade": 2,
+		"Impacto Financeiro": 3,
+		"Impacto no Cronograma": 1,
+		"Impacto Reputacional": 2
+	},
+	{
+		"Id": "R076",
+		"Risco": "Dependência excessiva do Relatório de Fiscalização ou Nota Técnica para a liquidação, sem detalhamento dos critérios utilizados nesses documentos, pode gerar questionamentos e atrasos.",
+		"Relacionado ao": "Gestão Contratual",
+		"Probabilidade": 2,
+		"Impacto Financeiro": 2,
+		"Impacto no Cronograma": 2,
+		"Impacto Reputacional": 1
+	},
+	{
+		"Id": "R077",
+		"Risco": "Atrasos na emissão do Relatório de Fiscalização ou Nota Técnica podem impactar o cronograma de pagamento.",
+		"Relacionado ao": "Gestão Contratual",
+		"Probabilidade": 3,
+		"Impacto Financeiro": 2,
+		"Impacto no Cronograma": 3,
+		"Impacto Reputacional": 1
+	},
+	{
+		"Id": "R078",
+		"Risco": "Divergências entre o valor apresentado na OS/OFB e o valor autorizado para liquidação, devido a descontos ou glosas não previstos inicialmente.",
+		"Relacionado ao": "Gestão Contratual",
+		"Probabilidade": 2,
+		"Impacto Financeiro": 3,
+		"Impacto no Cronograma": 1,
+		"Impacto Reputacional": 1
+	}
+]
