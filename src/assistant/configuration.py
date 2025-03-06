@@ -36,8 +36,12 @@ RISK_ANALYSIS_QUERIES = {
 }
 
 # Google Cloud configuration
+GOOGLE_CREDENTIALS_PATH = os.getenv('GOOGLE_CLOUD_CREDENTIALS_PATH')
+if not GOOGLE_CREDENTIALS_PATH:
+    raise ValueError("GOOGLE_CLOUD_CREDENTIALS_PATH environment variable is not set")
+
 credentials = service_account.Credentials.from_service_account_file(
-    'src/assistant/credentials/gen-lang-client-0178129527-f492d49c4c37.json'
+    GOOGLE_CREDENTIALS_PATH
 )
 
 # Initialize Google Cloud SDK
